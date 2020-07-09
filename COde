@@ -1,0 +1,9 @@
+import urllib as ub
+
+link = "https://www.s-m.com.sa/tr/cp.php"
+
+f = ub.urlopen(link)
+
+myLink = f.read()
+
+print(myLink)
